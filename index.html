@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manus Portfolio</title>
+    <link rel="stylesheet" href="./Assets/CSS/general_settings.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/about_me.css" />
+    <link rel="stylesheet" href="./assets/css/services.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_text">
+        <nav>
+          <input type="checkbox" id="toggle_button" />
+          <label for="toggle_button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul>
+            <li><a href="#about_me_section">Über Mich</a></li>
+            <li><a href="#services_section">Projekte</a></li>
+            <li><a href="#more_information_section">Impressum / Techstack</a></li>
+            <li><a href="#special_info_section">Disclaimer</a></li>
+          </ul>
+        </nav>
+        <h1>
+          Manuel Petersen, <br />
+          <span style="color: var(--main-brand-color)"> Webdeveloper</span>
+        </h1>
+        <p class="subheading">
+          Webentwicklung mit einem Auge für Design und Benutzererfahrung.
+        </p>
+      </div>
+      <div class="circle">
+        <img src="/assets/img/MP_SC_DD_5.jpg" alt="" />
+      </div>
+    </header>
+    <section id="about_me_section">
+      <img src="./assets/img/MP_SC_DD_2.2.jpg" alt="" />
+      <div class="about_me_container">
+        <h2>Über Mich</h2>
+        <p>
+          Als Junior Frontend-Webentwickler bin ich begeistert von der
+          Erstellung und Optimierung von Websites und Webanwendungen. Ich habe
+          Erfahrung in der Verwendung von HTML, CSS und JavaScript, sowie der
+          Arbeit mit Frameworks wie React. Ich lege Wert auf sauberen,
+          effektiven und gut strukturierten Code und achte besonders auf
+          Benutzerfreundlichkeit und Zugänglichkeit. Ich arbeite gerne in Teams
+          und schätze die Zusammenarbeit mit erfahrenen Entwicklern, um meine
+          Fähigkeiten zu erweitern und meine Kenntnisse zu vertiefen. Ich bin
+          auch bereit, neue Tools und Technologien zu erlernen, um mein Können
+          stets zu verbessern. Ich bin motiviert, in der Frontend-Entwicklung zu
+          arbeiten und dabei zu helfen, innovative Webanwendungen zu gestalten,
+          die nicht nur funktional, sondern auch ansprechend und
+          nutzerfreundlich sind.
+        </p>
+        <button class="cv_button">
+          <a href="./downloads/Lebenslauf_Manuel_Petersen_2023.pdf" download
+            >Mein Lebenslauf</a
+          >
+        </button>
+      </div>
+    </section>
+    <section id="services_section">
+      <h2>Projekte</h2>
+      <div class="flex_container">
+        <div class="card">
+          <h3>Projekt .MOV</h3>
+          <p>
+            Eine Movietrailer-App, mit der man sich Bewertungen und Trailer,
+            aktueller Filme anschauen kann.
+            Ich habe diese App im Rahmen meines Bootcamps, mit zwei Kollegen
+            gebaut, wobei ich überwiegend für die Struktur und das CSS zuständig
+            war. Umgesetzt haben wir das Projekt mit React.js.
+            <br /><span class="link_size"></span><a href="https://github.com/Manuel0705/Project-mov">Github-link</a></span
+            >
+          </p>
+          <a href="https://dreamy-blini-f92ffa.netlify.app/">Ansehen</a>
+        </div>
+        <div class="card">
+          <h3>Projekt Bravo</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+            deserunt perferendis possimus nisi dolores aliquid, id quaerat sint
+            consectetur officia repudiandae eligendi accusamus sed sequi
+            blanditiis fuga impedit itaque reprehenderit!
+          </p>
+          <a href="">Ansehen</a>
+        </div>
+        <div class="card">
+          <h3>Projekt Charlie</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+            deserunt perferendis possimus nisi dolores aliquid, id quaerat sint
+            consectetur officia repudiandae eligendi accusamus sed sequi
+            blanditiis fuga impedit itaque reprehenderit!
+          </p>
+          <a href="">Ansehen</a>
+        </div>
+      </div>
+    </section>
+    <footer id="more_information_section">
+      <h2>Mein Tech-Stack</h2>
+      <div class="grid_container">
+        <div id="item1" class="grid_item">
+          <img src="./assets/img/HTML-icon.svg" alt="" />
+          <div>
+            <h3>HTML5</h3>
+            <p>for Structure</p>
+          </div>
+        </div>
+        <div id="item2" class="grid_item">
+          <img src="./assets/img/JS-icon.svg" alt="" />
+          <h3>Javascript</h3>
+          <p>for Fun</p>
+        </div>
+        <div id="item3" class="grid_item">
+          <h3>Impressum</h3>
+          <p>
+            Name: Manuel Petersen<br />
+            Anschrift: Balgheimerstr.42,<br>41542 Dormagen<br />
+            Telefon: 017660336398<br />
+            E-Mail: Manuel-Petersen@gmx.net
+          </p>
+        </div>
+        <div id="item4" class="grid_item">
+          <img src="./assets/img/REACT-icon.svg" alt="" />
+          <h3>React.js</h3>
+          <p>for Productivity</p>
+        </div>
+        <div id="item5" class="grid_item">
+          <img src="./assets/img/CSS-icon.svg" alt="" />
+          <div>
+            <h3>CSS3</h3>
+            <p>for Style</p>
+          </div>
+        </div>
+      </div>
+      <div id="special_info_section">
+        <div>
+          <h4>Haftungsausschluss</h4> <br>
+          <p>
+            Ich übernehme keine Gewähr für die Richtigkeit, Vollständigkeit,
+            Aktualität oder Qualität der auf meiner Portfolio-Website
+            bereitgestellten Informationen. Die Nutzung der Informationen
+            erfolgt auf eigene Gefahr des Nutzers. Jegliche Haftung für Schäden,
+            die direkt oder indirekt aus der Nutzung meiner Portfolio-Website
+            entstehen, wird ausgeschlossen.
+          </p>
+        </div>
+        <div>
+          <h4>Datenschutzerklärung</h4> <br>
+          <p>
+            Diese Website erhebt, verarbeitet oder nutzt keinerlei
+            personenbezogene Daten. Diese Datenschutzerklärung wurde gemäß den
+            Anforderungen der Datenschutzgrundverordnung (DSGVO) erstellt. Gemäß
+            Art. 13 DSGVO informieren wir Sie darüber, dass wir keine
+            personenbezogenen Daten auf dieser Website speichern.<br />
+            Alle Bilder und Texte auf dieser Seite sind urheberrechtlich
+            geschützt und dürfen nicht ohne meine ausdrückliche Genehmigung
+            verwendet werden.
+          </p>
+        </div>
+      </div>
+      <div class="home-link-container">
+        <a href="./" id="home-link">Startseite</a>
+      </div>
+    </footer>
+
+    <script src="./assets/JS/main.js"></script>
+  </body>
+</html>
