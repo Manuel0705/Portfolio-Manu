@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-manu",
+  "version": "1.0.0",
+  "description": "Manus Portfolio-Webseite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo Nothing to build for HTML and CSS project."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuel0705/Portfolio-Manu.git"
+  },
+  "keywords": [
+    "Frontend-Developer-Portfolio"
+  ],
+  "author": "Manuel Petersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuel0705/Portfolio-Manu/issues"
+  },
+  "homepage": "https://github.com/Manuel0705/Portfolio-Manu#readme"
+}
